@@ -1,0 +1,44 @@
+img{
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+   
+}
+h1{
+    font-size: 30px;
+    margin-left: 250px;
+}
+p{
+    margin-left: 250px;
+    width: 500px;
+}
+    
+div.contenedorl{
+    width: 450px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 250px;
+}
+.content{
+    margin-left: 250px;
+
+}
+inputPassword{
+    margin-left: 250px;
+}
+lista{
+    font-size: small;
+    margin-left: 250px;
+}
+button{
+    width: 130px
+    height:30px;
+}
+checkbox{
+size: 50px;
+}
+footer{
+    width: 500px;
+    height: 30px;
+}
