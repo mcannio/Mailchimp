@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <div class="contenedor">
+    <header class="contenedor">
       <div class="lado-izquierdo">
         <img class="logo" src="mono mailchimp.png" alt="" />
       </div>
@@ -26,62 +26,49 @@
             <a href="" class="link1">Log in</a>
           </p>
         </div>
-        <form class="formulario">
-          <fieldset>
-            <label for="email"
-              >Email
-              <input                
-                id="email"
-                name="email"
-                type="email"
-                required
-            /></label>
-            <label for="Username"
-              >Username
-              <input                
-                id="username"
-                name="fusername"
-                type="text"
-                maxlength="20"
-                required
-            /></label>
-            <label for="Password"
-              >Password
-              <input                
-                id="password"
-                name="password"
-                type="password"
-                minlength="3"
-                pattern="[a-z0-5]{8,}"
-                required
-            /></label>
-          </fieldset>
-        </form>
-
+      </div>
+    </header>
+    <main>
+      <form class="formulario">
+        <label for="email">Email<input id="email" name="email" type="email" required/>
+        </label>
+        <label for="Username">Username<input id="username" name="username" type="text" maxlength="20" required/>
+        </label>
+        <label for="Password">Password<input id="password" name="password" type="password" minlength="3" pattern="[a-z0-5]{8,}"    required/>
+        </label>
+      </form>
+      <section>
+      <div>
         <ul>
           <li>One lower case character</li>
           <li>One uppercase character</li>
           <li>One special character</li>
+        </ul>  
+      </div> 
+      <div>
+        <ul>         
           <li>One number</li>
           <li>8 characters minimum</li>
         </ul>
+      </div> 
+     </section>
 
-        <div class="footer">
-          <button class="boton" type="submit">Sign up</button>
-          <label class="texto" for="texto">
-            <input class="check" type="checkbox" id="texto" />I don't
-            want to receive emails aboout new Mailchimp products, best
-            practices, or special offers.</label
-          >
-        </div>
-        <div class="final">
-          <p>
-            By clicking the "Sign up" button, you are creating a Mailchimp
-            account and you agree to Mailchimp's <a href="">Terms of Use</a> and
-            <a href="">Privacy Policy</a>
-          </p>
-        </div>
+      <div class="footer">
+        <button class="boton" type="submit">Sign up</button>
+        <input class="check" type="checkbox"></input>
+        <label class="texto" type="texto">
+          I don't want to receive emails aboout new Mailchimp products, best
+          practices, or special offers.</label>        
       </div>
-    </div>
+    </main>
+    <footer>
+      <div class="final">
+        <p>
+          By clicking the "Sign up" button, you are creating a Mailchimp account
+          and you agree to Mailchimp's <a href="">Terms of Use</a> and
+          <a href="">Privacy Policy</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
